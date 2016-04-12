@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" >
+    <item android:id="@+id/action_search"
+        android:orderInCategory="5"
+        android:title="Search Store"
+        android:icon="@drawable/ic_search_white_18dp"
+        app:showAsAction="ifRoom|collapseActionView"
+        app:actionViewClass="android.support.v7.widget.SearchView" />
+    <item android:id="@+id/action_add"
+        android:orderInCategory="5"
+        android:title="Add Grocery"
+        android:icon="@android:drawable/ic_input_add"
+        app:showAsAction="ifRoom|collapseActionView" />
+    <item android:id="@+id/action_view_purchase_list"
+        android:orderInCategory="5"
+        android:title="Purchased Grocery"
+        android:icon="@drawable/ic_playlist_add_check_white_18dp"
+        app:showAsAction="ifRoom|collapseActionView" />
+</menu>
